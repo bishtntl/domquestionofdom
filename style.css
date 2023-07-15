@@ -1,0 +1,24 @@
+#parent{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.a{
+    height: 100px;
+    width: 100px;
+    border: 2px solid black;
+}
+.grid{
+    display: grid;
+    width: 100%; 
+    height: 50vh;
+    grid-template-columns: auto auto;
+    grid-template-rows: auto auto auto auto;
+    gap: 20px;
+    
+   
+}
+.box{
+    height: 10vh;
+    border: 2px solid black;
+}
